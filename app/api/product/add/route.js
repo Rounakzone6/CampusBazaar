@@ -71,7 +71,7 @@ export async function POST(request) {
       price: Number(price),
       offerPrice: Number(offerPrice),
       image,
-      data: Date.now(),
+      date: Date.now(),
     });
     return NextResponse.json({
       success: true,
