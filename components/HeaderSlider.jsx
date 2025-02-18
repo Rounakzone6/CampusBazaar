@@ -6,24 +6,24 @@ const HeaderSlider = () => {
   const sliderData = [
     {
       id: 1,
-      title: "Experience Pure Sound - Your Perfect Headphones Awaits!",
-      offer: "Limited Time Offer 30% Off",
+      title: "📚 Buy & Sell Study Materials with Ease",
+      offer: "Easily trade books, notes, and stationery.",
       buttonText1: "Buy now",
       buttonText2: "Find more",
       imgSrc: assets.header_headphone_image,
     },
     {
       id: 2,
-      title: "Next-Level Gaming Starts Here - Discover PlayStation 5 Today!",
-      offer: "Hurry up only few lefts!",
+      title: "🔄 Seamless Trading for Students",
+      offer: "Connect with students for quick deals.",
       buttonText1: "Shop Now",
       buttonText2: "Explore Deals",
       imgSrc: assets.header_playstation_image,
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
-      offer: "Exclusive Deal 40% Off",
+      title: "🌍 Connecting Campus Through Smart Exchange",
+      offer: "A safe platform for student trading",
       buttonText1: "Order Now",
       buttonText2: "Learn More",
       imgSrc: assets.header_macbook_image,
@@ -67,7 +67,11 @@ const HeaderSlider = () => {
                 </button>
                 <button className="group flex items-center gap-2 px-6 py-2.5 font-medium">
                   {slide.buttonText2}
-                  <Image className="group-hover:translate-x-1 transition" src={assets.arrow_icon} alt="arrow_icon" />
+                  <Image
+                    className="group-hover:translate-x-1 transition"
+                    src={assets.arrow_icon}
+                    alt="arrow_icon"
+                  />
                 </button>
               </div>
             </div>
